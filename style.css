@@ -1,0 +1,35 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+article > * {
+  color: #ccc;
+  background-color: Lava Red;
+  border-radius: 4pxadding: 10px;
+}
+p {
+  margin-left: 5em;
+  margin-right: 5em;
+  color: #660000;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1E42217;
+  color: #660000;
+  font-size: 30px;
+}
