@@ -6,6 +6,11 @@ body {
   background-image: url("https://i.pinimg.com/originals/c4/b4/e6/c4b4e658549f0bff0ff1db0980d52d42.jpg");
 }
 </style>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
 <title> Andalite Bandit Tracker </title>
 </head>
 <body> 
