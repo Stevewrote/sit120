@@ -14,5 +14,30 @@ body {
 <p> Any reports of suspicious animal activity should be reported to your Sub-Visser immediately.</p>
   <br>
    
+   <h2>Known Andalite Bandits</h2>
+
+<table style="width:70%">
+  <tr>
+    <th>Name</th>
+    <th>Primary Morph</th>
+    <th>Bird Morph</th>
+  </tr>
+  <tr>
+    <td>Jake</td>
+    <td>Tiger</td>
+    <td>Peregrine Falcon</td>
+  </tr>
+  <tr>
+    <td>Rachel</td>
+    <td>Grizzly Bear</td>
+    <td>Bald Eagle</td>
+  </tr>
+  <tr>
+    <td>Tobias</td>
+    <td>Red-Tailed Hawk</td>
+    <td>Seagull</td>
+  </tr>
+  
+</table>
 </body>
 </html>
