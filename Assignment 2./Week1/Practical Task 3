@@ -1,7 +1,0 @@
-<button onclick="myFunction()">Confirm you are not a Bandit</button>
-
-<script>
-function myFunction() {
-  alert("Bandits Detected!");
-}
-</script>
