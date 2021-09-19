@@ -41,7 +41,20 @@ tr:hover {background-color: #D6EEEE;}
     <td>Red-Tailed Hawk</td>
     <td>Seagull</td>
   </tr>
-  
 </table>
+
+<br>
+  
 </body>
+
+<footer>
+  
+<h3>Sub-Vissers contact list</h3>
+  <ol type="1">
+  <li>Herman Chapman</li>
+  <li>Ursula Kramer</li>
+  <li>Tom Berenstein</li>
+</ol>
+</footer>
+
 </html>
