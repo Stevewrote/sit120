@@ -1,14 +1,35 @@
 <!DOCTYPE html> 
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
 body {
   background-image: url("https://i.pinimg.com/originals/c4/b4/e6/c4b4e658549f0bff0ff1db0980d52d42.jpg");
 }
 table, th, td {
   border:1px solid black;
+  background-color:#aaa;
 }
 tr:hover {background-color: #D6EEEE;}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </style>
 <title> Andalite Bandit Tracker </title>
 </head>
@@ -44,6 +65,27 @@ tr:hover {background-color: #D6EEEE;}
 </table>
 
 <br>
+
+<h2>Sub-Visser Report</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Herman Chapman Report</h2>
+    <p>Here I will lay out the efforts of our troops in tracking down those pesky bandits. They are making life really annoying at the moment. </p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Gerblat3424</h2>
+    <p>Down with the insolent other Sub-Visers, they are allowing the Andalite Bandits to roam free with their incompetence.</p>
+  </div>
+</div>
+
+<h2>JavaScript Button</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display the next location of an Andalite attack</button>
+
+<p id="demo"></p>
   
 </body>
 
