@@ -1,0 +1,33 @@
+<div id="app">
+    <section class="hero is-fullheight is-warning is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <p class="title is-1">{{ title }}</p>
+          <p class="subtitle is-3">{{ subtitle }}</p>
+          
+         <child-component>
+           <p slot="bottom">This can be placed at the bottom using the slots</p>
+           <p>This is content from the parent</p>
+           <p slot="top">Top slot this has been moved form, hmm!</p>
+         </child-component>
+         
+         <child-component></child-component>
+        </div>
+      </div>
+   </section>
+ </div>
+ 
+ <script type="text/x-template" id="child-component">
+   <div>
+     
+     <slot name="top">
+     </slot>
+     
+     <slot>
+       <p>Hello from the child!</p>
+     </slot>
+     
+     <slot name="bottom">
+     </slot>
+   </div>
+ </script>
