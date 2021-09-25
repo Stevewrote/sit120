@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+        <script src="" async defer></script>
+            <!-- Week 6 Task 1 -->
+        <p>FORM USER</p>
+
+        <p>Name:<p/>
+        <input v-model="message" placeholder="Myname">
+
+        <p>Password:<p/>
+        <input v-model="message" placeholder="*********">
+
+        <p>Email:<p/>
+        <input v-model="message" placeholder="example@gmail.com">
+
+         <!-- Week 6 Task 2 -->
+        <div id="v-model-multiple-checkboxes" class="demo">
+            <p>Book Series Read</p>
+            <input type="checkbox" id="Connect4" value="Connect4" v-model="checkedNames" />
+            <label for="Connect4">Connect4</label>
+            <input type="checkbox" id="Dune" value="Dune" v-model="checkedNames" />
+            <label for="Dune">Dune</label>
+            <input type="checkbox" id="Everdell" value="Everdell" v-model="checkedNames" />
+            <label for="Everdell">Everdell</label>
+            <input type="checkbox" id="Rummy" value="Rummy" v-model="checkedNames" />
+            <label for="Rummy">Rummy</label>
+            <br />
+            <span>Checked names: {{ checkedNames }}</span>
+          </div>
+
+          <!-- Week 6 Task 3 -->
+          <p>Choose your starting Character</p> 
+          <div id="v-model-select-dynamic" class="demo2">
+            <select v-model="selected">
+          
+              <option v-for="option in options" v-bind:value="option.value">
+                {{ option.text }}
+              </option>
+            </select>
+            <span>Selected: {{ selected }}</span>
+          </div> 
+
+
+    </body>
+</html>
+
