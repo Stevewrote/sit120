@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="content">
+ 
+ <link rel="stylesheet" type="text/css" href="./style.css" />
+ <script src="Vue.js"></script> 
+
+
+</head>
+
+<body>
+
+ <div class="header">
+  <h1>Test Page for Declarative Rendering</h1>
+  <p></p>
+</div>
+
+<div id="drendering">
+  <span v-bind:title="Declarative Rendering Example">
+    Hovering here will show a different message. 
+  </span>
+</div>
+
+
+<h1 v-if="green">Green means go!</h1>
+<h1 v-else>STOP. Yellow or red lights mean STOP</h1>
+
+<div v-if="Earth = Round">
+  Euclidean Geometry.
+</div>
+<div v-else>
+  Discworld Physics Enabled.
+</div>
+
+<h1 v-show="The Matrix">Hello Neo!</h1>
+
+<ul id="vforexample">
+  <li v-for="item in items" :key="item.message">
+    {{ item.message }}
+  </li>
+</ul>
+
+</body>
+</html>
