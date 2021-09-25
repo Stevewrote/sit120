@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="content">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+
+        <!--Top Navigation menu --> 
+        <div class="topnav">
+            <a class="active" href="contactUs.html">Contact Us</a>
+            <a href="#store">Store</a>
+            <a href="index.html">Home</a>
+            <a href="#articles">Articles</a>
+            <a href="#Videos">Videos</a>
+            <a href="#Login">Login</a>
+        </div> 
+
+    </head>
+
+    <body>
+      <!--Form for feedback, suggestions and contacting site owners-->
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="yname">Your Name</label>
+              <input type="text" id="yname" name="yourname" placeholder="Your name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email address..">
+          
+              <label for="query">Query Type</label>
+              <select id="query" name="query">
+                <option value="feedback">Feedback</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="Other">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Please enter your comments here." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+          
+    </body>
