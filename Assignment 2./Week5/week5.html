@@ -1,0 +1,53 @@
+<!DOCTYPE  html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todooey - A Simple Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+    </div>
+    <div class="container">
+        <h1 class="">My Todo List</h1>
+        <div class="card">
+          <div class="flex">
+            <input placeholder="Add new todo" />
+              <button>Add</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <h2>Todo</h2>
+            <ul class="list">
+              <li class="list-item">
+                <div class="list-item-toggle"></div><span>Wash the car</span>
+                <div class="list-item-delete">X</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      // Part 3
+
+      <div id="steveapp">
+        <button v-on:click="reverseMessage">Reverse Message</button>
+        <span v-bind:title="message">
+          Magic is happening!
+        </span>
+      </div>
+
+      
+      
+
+
+
+
+
+  </body>
+
+  
+</html>
